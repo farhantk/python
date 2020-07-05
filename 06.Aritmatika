@@ -1,0 +1,27 @@
+
+x = int(input("Angka pertama : "))
+y = int(input("Angka kedua : "))
+
+
+# Penjumlahan +
+hasil = x + y
+print(x ,"+", y ," : ", hasil)
+# Pengurangan -
+hasil = x - y
+print(x ,"-", y ," : ", hasil)
+# Perkalian *
+hasil = x * y
+print(x ,"x", y ," : ", hasil)
+# Pembagian /
+hasil = x / y
+print(x ,":", y ," : ", hasil)
+# Floor divison //
+hasil = x // y
+print(x ,"//", y ," : ", hasil)
+# Modulus %
+hasil = x % y
+print(x ,"%", y ," : ", hasil)
+# Pangkat **
+hasil = x ** y
+print(x ,"^", y ," : ", hasil)
+
