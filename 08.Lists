@@ -1,0 +1,18 @@
+data = [5,10,12,24,56,70] # Dimulai dari 0,1,2,3....
+subdata = data[0] # angka pertama
+subdata2 = data[-4] # akan menganbil data ke 4 dari belakang
+subdata3 = data[0:5] # akan mengambil data dari data ke-0 sampai 4(sebelum 5)
+subdata4 = data[2:] # akan mengambil data dari data ke-2 sampai seterusnya
+
+print(data)
+print(subdata)
+print(subdata2)
+print(subdata3)
+print(subdata4)
+
+print(20*"=")
+
+# Menambahkan data
+data1 = [1,2,3,4,5]
+data2 = [6,7,8,9,10]
+print(data1 + data2)
