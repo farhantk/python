@@ -5,3 +5,9 @@ def hargatotal(kg):
     print("Harga ",kg, "Kg daging adalah ",harga)
 
 hargatotal(5)
+
+def guru(nama,pelajaran):
+    print("Nama Guru : ",nama)
+    print("pelajaran : ",pelajaran)
+
+guru("Asep","B.Sunda")
